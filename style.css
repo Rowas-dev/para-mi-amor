@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  touch-action: none;
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+#joystick {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+  background: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.3);
+  bottom: 30px;
+  left: 30px;
+}
+#interactBtn {
+
+  position: fixed;
+
+  bottom: 120px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  padding: 14px 24px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: rgba(0,0,0,0.7);
+
+  color: white;
+
+  font-size: 18px;
+
+  display: none;
+
+  z-index: 1000;
+
+}
+#artViewer {
+
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0,0,0,0.92);
+
+  display: none;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 2000;
+
+}
+
+#artImage {
+
+  width: 80%;
+
+  max-width: 500px;
+
+  border-radius: 14px;
+
+}
+
+#artText {
+
+  color: white;
+
+  margin-top: 20px;
+
+  font-size: 18px;
+
+  text-align: center;
+
+  width: 80%;
+
+}
+
+#closeArt {
+
+  margin-top: 20px;
+
+  padding: 12px 20px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 18px;
+
+}
+#bookLetter{
+
+display:none;
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,.65);
+
+justify-content:center;
+align-items:center;
+
+z-index:9999;
+
+}
+
+#bookPage{
+
+background:#f7f0d8;
+
+width:80%;
+
+max-width:700px;
+
+padding:30px;
+
+border-radius:12px;
+
+font-size:20px;
+
+line-height:1.8;
+
+box-shadow:0 0 30px rgba(0,0,0,.5);
+
+}
+
+#bookPage h2{
+
+text-align:center;
+
+margin-bottom:20px;
+
+}
+#closeBookBtn{
+
+display:none;
+
+margin-top:25px;
+
+padding:12px 20px;
+
+font-size:18px;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
+html, body {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}

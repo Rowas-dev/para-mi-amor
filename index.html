@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi Novia</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+
+  <!-- Botón de interacción -->
+  <button id="interactBtn">
+    VER OBRA
+  </button>
+
+  <!-- Visor de obras -->
+  <div id="artViewer">
+
+    <img id="artImage" />
+
+    <p id="artText">
+      Descripción
+    </p>
+
+    <button id="closeArt">
+      CERRAR
+    </button>
+
+  </div>
+
+  <!-- ======================
+       CARTA FINAL
+  ====================== -->
+
+  <div id="bookLetter">
+
+    <div id="bookPage">
+
+      <h2>❤️ Mi amor ❤️</h2>
+
+      <p id="letterText"></p>
+      
+      <button id="closeBookBtn">
+        Cerrar carta
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Joystick -->
+  <div id="joystick"></div>
+<audio id="finalSong">
+
+  <source
+    src="audio/cancion.mp3"
+    type="audio/mpeg">
+
+</audio>
+  <!-- Script principal -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
