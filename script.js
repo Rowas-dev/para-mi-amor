@@ -523,7 +523,7 @@ floor.rotation.x = -Math.PI / 2;
 scene.add(floor);
 floor.receiveShadow = true;
 
-const devMode = true;
+const devMode = false;
 const walls = [];
 const doors = [];
 const interactables = [];
